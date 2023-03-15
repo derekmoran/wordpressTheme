@@ -70,6 +70,23 @@
 		</div>
 		<!-- /wp:media-text -->
 
+		<!-- wp:media-text {"align":"full","mediaType":"image","mediaWidth":15,"isStackedOnMobile":false,"imageFill":false} -->
+		<div class="wp-block-media-text alignfull" style="grid-template-columns:15% auto">
+			<figure class="wp-block-media-text__media">
+			<a href="https://www.linkedin.com/in/derek-moran/" target="_blank">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/linkedin.svg" alt="LinkedIn"/>
+			</a>
+			</figure>
+			<div class="wp-block-media-text__content">
+				<!-- wp:paragraph {"placeholder":"Content…"} -->
+				<a href="https://www.linkedin.com/in/derek-moran/" target="_blank">
+					<p>LinkedIn</p>
+				</a>
+				<!-- /wp:paragraph -->
+			</div>
+		</div>
+		<!-- /wp:media-text -->
+
 </div>
 <!-- /wp:group -->
 
